@@ -1,0 +1,335 @@
+
+#index{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#index a{
+    background-color: black;
+}
+#index h1{
+    background-color: darkslategrey;
+}
+#index h2{
+    background-color: gray;
+}
+#index .container{
+    background-color: midnightblue;
+    height: 70px;
+    padding:20px;
+}
+#index #list{
+    background-color: salmon;
+}
+#index #Rome{
+    background-color: lightgreen;
+}
+#index #logoRome{
+    right: 80%;
+}
+#index #Florida{
+    background-color:seagreen;
+}
+#index #Nice{
+    background-color: green;
+}
+
+#index, #tickets, #contact #aside{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    right: 33%;
+    bottom: 50%;
+    background-color: #ffff;
+}
+#bestdestinations aside{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 33%;
+    bottom: 80%;
+    background-color: #ffff;
+}
+#index .copyright{
+    color: mediumslateblue;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+    }
+#index .cookie{
+    background-color: #FA0;
+    position:fixed;
+    color:#FFF;
+    opacity: 50%;
+    width: 100%;
+    bottom:0;
+    left:0;
+    text-align: right;
+    z-index: 9999;
+    font-family: Notable;
+    font-size: 16px;
+    }
+
+    #bestdestinations{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+#bestdestinations a{
+    background-color: black;
+}
+#bestdestinations h1{
+    background-color: darkslategrey;
+}
+#bestdestinations h2{
+    background-color: gray;
+}
+#bestdestinations .container{
+    background-color: midnightblue;
+    height: 70px;
+    padding:20px;  
+}
+#bestdestinations #Rome{
+    background-color: #ffff;
+}
+#bestdestinations #Florence{
+    background-color: lightgreen;
+}
+#bestdestinations #Pensacola{
+    background-color: royalblue;
+}
+#bestdestinations #Miami{
+    background-color: green;
+}
+#bestdestinations #Nice{
+    background-color: seagreen;
+}
+#bestdestinations #Monaco{
+    background-color: salmon;
+}
+#bestdestinations #logoMonaco{
+    justify-content: flex-end;
+}
+
+#bestdestinations .copyright{
+    color: mediumslateblue;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+    }
+#bestdestinations .cookie{
+    background-color: #FA0;
+    position:fixed;
+    color:#FFF;
+    opacity: 50%;
+    width: 100%;
+    bottom:0;
+    left:0;
+    text-align: right;
+    z-index: 9999;
+    font-family: Notable;
+    font-size: 16px;
+    }
+
+
+
+
+#tickets{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#tickets a{
+    background-color: black;
+}
+#tickets h1{
+    background-color: darkslategrey;
+}
+#tickets h2{
+    background-color: gray;
+}
+#tickets .container{
+    background-color: midnightblue;
+    height: 70px;
+    padding:20px;
+}
+#tickets .table{
+    background-color: mediumturquoise;
+}
+
+
+#tickets .copyright{
+    color: mediumslateblue;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+    }
+#tickets .cookie{
+    background-color: #FA0;
+    position:fixed;
+    color:#FFF;
+    opacity: 50%;
+    width: 100%;
+    bottom:0;
+    left:0;
+    text-align: right;
+    z-index: 9999;
+    font-family: Notable;
+    font-size: 16px;
+    }
+
+
+    #contact{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+    #contact a{
+        background-color: black;
+    }
+    #contact h1{
+        background-color:darkslategrey;
+    }
+    #contact h2{
+        background-color: gray;
+    }
+#contact .container{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: midnightblue;
+}
+#contact form{
+    background-color: mediumturquoise;
+}
+input[type=supmit]{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #04aa6d;
+    color: #ffff;
+
+}
+input[type=text], select, textarea{
+    padding:12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    width: 100X;
+}
+
+#contact .copyright{
+    color: mediumslateblue;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+    }
+#contact .cookie{
+    background-color: #FA0;
+    position:fixed;
+    color:#FFF;
+    opacity: 50%;
+    width: 100%;
+    bottom:0;
+    left:0;
+    text-align: right;
+    z-index: 9999;
+    font-family: Notable;
+    font-size: 16px;
+    }
+
+.container{
+    display: inline-block;
+    cursor: pointer;
+}
+.hamburger1, .hamburger2, .hamburger3{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .hamburger1{
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .hamburger2{
+    opacity: 0;
+}
+.change .hamburger3{
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px); 
+}
+
+  
+
+  
+  #index .contain {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1.5fr;
+    grid-template-rows: 1.1fr 0.9fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Rome logoRome aside"
+      "Rome logoRome aside"
+      "Florida logopensacola aside"
+      "Florida logoPensecola aside"
+      "Nice logoNice aside"
+      "Nice logoNice aside"
+      "copyright copyright cookie"
+      "copyright copyright cookie";
+  }
+  
+  #index #Rome { grid-area: Rome; }
+  
+  #index .logoRome { grid-area: logoRome; }
+  
+  #index #Florida { grid-area: Florida; }
+  
+  #index .logoPensacola { grid-area: logoPensacola; }
+  
+  #index #Nice { grid-area: Nice; }
+  
+  #index .logoNice { grid-area: logoNice; }
+  
+  #index .cookie { grid-area: cookie; }
+  
+  #index .aside { grid-area: aside; }
+  
+  #index .copyright { grid-area: copyright; }
+  
+  
+  html, body , #index .contain {
+    height: 100%;
+    margin: 0;
+  }
+    
+  /* For presentation only, no need to copy the code below */
+  
+  #index .contain * {
+    border: 1px solid red;
+    position: relative;
+    background-color: midnightblue;
+    height: 70px;
+    padding:20px;
+  }
+  
+  #index .contain *:after {
+    content:attr(class);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+ 
