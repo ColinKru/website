@@ -1,65 +1,156 @@
-
+/* bestdestinations uses grid /---> delete afterwards this shit 
+<--- index uses flex-box ---/> delete this shit */
 #index{
     font-family: Arial, Helvetica, sans-serif;
+    float: left;
     font-size: 16px;
+    display: flex;
+}
+body{
+    width: 100%;
 }
 
+
+/*
 #index a{
     background-color: black;
+    width: 100%;
+    float: left;
+    display: flex;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
 }
 #index h1{
     background-color: darkslategrey;
+    display: flex;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
 }
 #index h2{
     background-color: gray;
+    display: flex;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
 }
 #index .container{
     background-color: midnightblue;
+    top: 300px;
+    left:0;
     height: 70px;
     padding:20px;
+    display: flex;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
 }
-#index #list{
+/*#index .nav{
+    background-color: midnightblue;
+    top: 350px;
+    left:0;
+    height: 70px;
+    padding:20px;
+    display: flex;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+}*/
+/*#index #list{
     background-color: salmon;
+    top: 400px;
+    left:0;
+    display: flex;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
 }
-#index #Rome{
+/*#index #Rome{
     background-color: lightgreen;
+    top: 500px;
+    left:0;
+    display: flex;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
 }
-#index #logoRome{
+/*#index #logoRome{
     right: 80%;
+    display: flex;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
 }
 #index #Florida{
     background-color:seagreen;
+    top: 600px;
+    left:0;
+    display: flex;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
 }
 #index #Nice{
     background-color: green;
-}
-
-#index, #tickets, #contact #aside{
+    top: 5700px;
+    left:0;
     display: flex;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+}*/
+
+#index, #tickets, #contact .contain{
+    background-color: lightgreen;
+    top: 500px;
+    left:0;
+    display: flex;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+}
+#index, #tickets, #contact .aside{
+    background-color: white;
+    display: flex;
+    top: 500px;
+    right:0;
     justify-content: flex-end;
     position: fixed;
     right: 33%;
     bottom: 50%;
-    background-color: #ffff;
 }
-#bestdestinations aside{
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    right: 33%;
-    bottom: 80%;
-    background-color: #ffff;
-}
+
 #index .copyright{
-    color: mediumslateblue;
-    position: fixed;
+    color: #ffff;
+    position:fixed;
+    float: left;
+    opacity: 50%;
+    width: 100%;
+    bottom:0;
+    left:0;
     text-align: left;
-    font-size: 12px;
-    margin: 0;
+    z-index: 9999;
+    font-family: Notable;
+    font-size: 16px;
+    display: flex;
+
     }
 #index .cookie{
     background-color: #FA0;
     position:fixed;
+    float: left;
     color:#FFF;
     opacity: 50%;
     width: 100%;
@@ -69,58 +160,109 @@
     z-index: 9999;
     font-family: Notable;
     font-size: 16px;
+    display: flex;
+
     }
 
-    #bestdestinations{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
+
+#bestdestinations{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 16px;
+    display: grid;
+
     }
 #bestdestinations a{
     background-color: black;
+    width: 100%;
+    float: left;
+    display: grid;
 }
-#bestdestinations h1{
-    background-color: darkslategrey;
-}
-#bestdestinations h2{
-    background-color: gray;
-}
-#bestdestinations .container{
+
+#bestdestinations .nav{
     background-color: midnightblue;
-    height: 70px;
-    padding:20px;  
+    float: left;
+    display: grid;
+    grid-area:navTag;
 }
 #bestdestinations #Rome{
     background-color: #ffff;
+    float: left;
+    display: grid;
+    grid-area: RomeTag;
+
 }
 #bestdestinations #Florence{
     background-color: lightgreen;
+    float: left;
+    display: grid;
+    grid-area: FlorenceTag;
 }
 #bestdestinations #Pensacola{
     background-color: royalblue;
+    float: left;
+    display: grid;
+    grid-area: PensacolaTag;
 }
 #bestdestinations #Miami{
     background-color: green;
+    float: left;
+    display: grid;
+    grid-area: MiamiTag;
 }
 #bestdestinations #Nice{
     background-color: seagreen;
+    float: left;
+    display: grid;
+    grid-area: NiceTag;
 }
 #bestdestinations #Monaco{
     background-color: salmon;
-}
-#bestdestinations #logoMonaco{
-    justify-content: flex-end;
+    float: left;
+    display: grid;
+    grid-area: MonacoTag;
 }
 
+#bestdestinations aside-1{
+    width: 33%;
+    float: left;
+    background-color: black;
+    display: grid;
+    grid-area: aside1Tag;
+}
+#bestdestinations aside-2{
+    width: 33%;
+    float: left;
+    background-color: black;
+    display: grid;
+    grid-area: aside2Tag;
+}
+#bestdestinations aside-3{
+    width: 33%;
+    float: left;
+    background-color: black;
+    display: grid;
+    grid-area: aside3Tag;
+}
 #bestdestinations .copyright{
-    color: mediumslateblue;
-    position: fixed;
+    color: #ffff;
+    position:fixed;
+    float: left;
+    opacity: 50%;
+    width: 100%;
+    bottom:0;
+    left:0;
     text-align: left;
-    font-size: 12px;
-    margin: 0;
+    z-index: 9999;
+    font-family: Notable;
+    font-size: 16px;
+    display: grid;
+    grid-area: copyrightTag;
     }
 #bestdestinations .cookie{
     background-color: #FA0;
     position:fixed;
+    float: left;
     color:#FFF;
     opacity: 50%;
     width: 100%;
@@ -130,44 +272,61 @@
     z-index: 9999;
     font-family: Notable;
     font-size: 16px;
+    display: grid;
+    grid-area: cookieTag;
     }
 
 
 
 
-#tickets{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-#tickets a{
-    background-color: black;
-}
-#tickets h1{
-    background-color: darkslategrey;
-}
-#tickets h2{
-    background-color: gray;
-}
-#tickets .container{
-    background-color: midnightblue;
-    height: 70px;
-    padding:20px;
-}
-#tickets .table{
-    background-color: mediumturquoise;
-}
+    #tickets{
+        font-family: Arial, Helvetica, sans-serif;
+        float: left;
+        font-size: 16px;
+        display: flex;
+    }
 
-
-#tickets .copyright{
-    color: mediumslateblue;
+#tickets #ticketstext{
+    background-color: lightgreen;
+    top: 500px;
+    left:0;
+    display: flex;
     position: fixed;
     text-align: left;
     font-size: 12px;
     margin: 0;
+}
+#tickets .table{
+    background-color: lightgreen;
+    top: 500px;
+    left: 50px;;
+    display: flex;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+#tickets .copyright{
+    color: #ffff;
+    position:fixed;
+    float: left;
+    opacity: 50%;
+    width: 100%;
+    bottom:0;
+    left:0;
+    text-align: left;
+    z-index: 9999;
+    font-family: Notable;
+    font-size: 16px;
+    display: flex;
+
     }
 #tickets .cookie{
     background-color: #FA0;
     position:fixed;
+    float: left;
     color:#FFF;
     opacity: 50%;
     width: 100%;
@@ -177,29 +336,82 @@
     z-index: 9999;
     font-family: Notable;
     font-size: 16px;
+    display: flex;
+
     }
 
 
-    #contact{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
+
+
+#contact{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 16px;
+    display: flex;
+}
+
+#contact #contacttext{
+    background-color: white;
+    top: 500px;
+    left:0;
+    display: flex;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+}
+#contact #messagebox{
+    background-color: white;
+    top: 200px;
+    left:0;
+    display: flex;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+}
+#contact #copyright{
+    color: #ffff;
+    position:fixed;
+    float: left;
+    opacity: 50%;
+    width: 100%;
+    bottom:0;
+    left:0;
+    text-align: left;
+    z-index: 9999;
+    font-family: Notable;
+    font-size: 16px;
+    display: flex;
+
     }
-    #contact a{
-        background-color: black;
+#contact #cookie{
+    background-color: #FA0;
+    position:fixed;
+    float: left;
+    color:#FFF;
+    opacity: 50%;
+    width: 100%;
+    bottom:0;
+    left:0;
+    text-align: right;
+    z-index: 9999;
+    font-family: Notable;
+    font-size: 16px;
+    display: flex;
+
     }
-    #contact h1{
-        background-color:darkslategrey;
-    }
-    #contact h2{
-        background-color: gray;
-    }
-#contact .container{
+#contact #container{
     padding: 20px;
     border-radius: 5px;
     background-color: midnightblue;
+    display: flex;
+
 }
 #contact form{
     background-color: mediumturquoise;
+    display: flex;
+
 }
 input[type=supmit]{
     padding: 12px 20px;
@@ -208,6 +420,8 @@ input[type=supmit]{
     cursor: pointer;
     background-color: #04aa6d;
     color: #ffff;
+    display: flex;
+
 
 }
 input[type=text], select, textarea{
@@ -217,28 +431,10 @@ input[type=text], select, textarea{
     margin-bottom: 16px;
     resize: vertical;
     width: 100X;
+    display: flex;
+
 }
 
-#contact .copyright{
-    color: mediumslateblue;
-    position: fixed;
-    text-align: left;
-    font-size: 12px;
-    margin: 0;
-    }
-#contact .cookie{
-    background-color: #FA0;
-    position:fixed;
-    color:#FFF;
-    opacity: 50%;
-    width: 100%;
-    bottom:0;
-    left:0;
-    text-align: right;
-    z-index: 9999;
-    font-family: Notable;
-    font-size: 16px;
-    }
 
 .container{
     display: inline-block;
@@ -265,71 +461,22 @@ input[type=text], select, textarea{
     transform: rotate(-45deg) translate(-9px, 6px); 
 }
 
-  
 
-  
-  #index .contain {
+
+#bestdestinations .container {
+    background-color: lawngreen;
+    padding: 10px;
     display: grid;
-    grid-template-columns: 1fr 0.5fr 1.5fr;
-    grid-template-rows: 1.1fr 0.9fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Rome logoRome aside"
-      "Rome logoRome aside"
-      "Florida logopensacola aside"
-      "Florida logoPensecola aside"
-      "Nice logoNice aside"
-      "Nice logoNice aside"
-      "copyright copyright cookie"
-      "copyright copyright cookie";
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+    grid-template-areas: 
+      "header\,-header\,-header\,-header\,-header\,-header\,-header"
+      "containerTag containerTag containerTag containerTag containerTag containerTag"
+      "navTag"
+      "FlorenceTag FlorenceTag RomeTag RomeTag PensacolaTag PensacolaTag"
+      "FlorenceTag FlorenceTag RomeTag RomeTag MiamiTag MiamiTag"
+      "NiceTag NiceTag RomeTag RomeTag MiamiTag MiamiTag"
+      "NiceTag NiceTag MonacoTag MonacoTag MonacoTag MonacoTag"
+      "aside1Tag aside1Tag aside2Tag aside2Tag aside3Tag aside3Tag"
+      "copyrightTag copyrightTag copyrightTag copyrightTag cookieTag cookieTag";
   }
-  
-  #index #Rome { grid-area: Rome; }
-  
-  #index .logoRome { grid-area: logoRome; }
-  
-  #index #Florida { grid-area: Florida; }
-  
-  #index .logoPensacola { grid-area: logoPensacola; }
-  
-  #index #Nice { grid-area: Nice; }
-  
-  #index .logoNice { grid-area: logoNice; }
-  
-  #index .cookie { grid-area: cookie; }
-  
-  #index .aside { grid-area: aside; }
-  
-  #index .copyright { grid-area: copyright; }
-  
-  
-  html, body , #index .contain {
-    height: 100%;
-    margin: 0;
-  }
-    
-  /* For presentation only, no need to copy the code below */
-  
-  #index .contain * {
-    border: 1px solid red;
-    position: relative;
-    background-color: midnightblue;
-    height: 70px;
-    padding:20px;
-  }
-  
-  #index .contain *:after {
-    content:attr(class);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  
- 
